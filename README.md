@@ -1,31 +1,75 @@
 # QA Engineering Portfolio: Manual & Automation Testing
 
 ## Overview
-This repository showcases my technical proficiency in Software Quality Assurance. It includes manual test documentation, API testing collections and Python-based automation scripts.
+
+This repository showcases my hands-on work in Software Quality Assurance, including manual testing, API validation and Python-based automation.
+
+The focus of this portfolio is structured test design, clear defect reporting, and building maintainable test scripts.
+
+---
 
 ## Tech Stack
-* **Languages:** Python (PyTest)
-* **API Testing:** Postman, FastAPI
-* **Automation:** Selenium WebDriver
-* **Project Management:** Jira (Bug Tracking logic)
-* **Web Frameworks:** Streamlit
+
+- **Languages:** Python (PyTest)
+- **Automation:** Selenium WebDriver
+- **API Testing:** Postman, FastAPI
+- **Project Tracking:** Jira (Bug tracking simulation)
+- **Web Frameworks:** Streamlit
+
+---
 
 ## Repository Structure
 
-### 1. Manual Testing Documentation
-* **Test Plan:** Strategic approach for testing the 'InSight' Cataract Detection system.
-* **Test Cases:** 50+ detailed scenarios covering Functional, Smoke, and Regression testing.
-* **Bug Reports:** Sample reports identifying UI/UX inconsistencies and API response errors.
+### Manual Testing Documentation
 
-### 2. API Testing (Postman)
-* **Collection:** JSON export of Postman tests for a FastAPI backend.
-* **Tests Included:** Status code validation (200 OK), JSON schema validation, and response time checks.
+Created while testing the **InSight Cataract Detection System**.
 
-### 3. Automation (Selenium + Python)
-* **Script:** `basic_search_test.py` - A script that automates a browser search to verify UI elements.
-* **Logic:** Uses Page Object Model (POM) basics for clean, maintainable code.
+- **Test Plan:** Scope, objectives, risks, and testing strategy
+- **Test Cases:** 50+ scenarios covering Smoke, Functional, and Regression testing
+- **Bug Reports:** Structured defect reports including:
+  - Steps to reproduce
+  - Expected vs. actual results
+  - Severity and priority assessment
+
+---
+
+### API Testing (Postman)
+
+- Postman collection for testing FastAPI backend endpoints
+- Tests include:
+  - Status code validation (200, 400, 500)
+  - JSON schema validation
+  - Edge case input validation
+  - Basic response time checks
+
+---
+
+### Automation (Selenium + Python)
+
+- `test.py`
+- Demonstrates:
+  - Web element locators (ID, CSS Selector, XPath)
+  - Implicit and Explicit waits
+  - Assertions for UI validation
+  - Basic Page Object Model (POM) structure
+
+---
 
 ## Featured Project: InSight (QA Focus)
-While developing the InSight detection tool, I implemented:
-* **Boundary Value Analysis:** Validated image upload constraints (size, format, resolution).
-* **Black-Box Testing:** Verified AI detection accuracy across 100+ sample datasets.
+
+**InSight** is an AI-based cataract detection system built using Python and FastAPI.  
+During development, I focused on validating input integrity, model output consistency, and overall system reliability.
+
+### QA Contributions
+
+- Applied **Boundary Value Analysis (BVA)** to validate image upload constraints:
+  - File size limits
+  - Supported and unsupported formats
+  - Resolution thresholds
+
+- Performed **Black-Box Testing** using 100+ sample image datasets to evaluate prediction consistency.
+
+- Logged reproducible issues and tracked them through a simulated Jira workflow.
+
+🔗 Jira Simulation Example:  
+https://faithnjugunacse.atlassian.net/browse/KAN-4
