@@ -1,0 +1,50 @@
+{
+  "info": {
+    "_postman_id": "fcdf33fe-109c-4cb8-827f-3147e955ae2c",
+    "name": "E2E Order Lifecycle",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53390867"
+  },
+  "item": [
+    {
+      "name": "1. Login User",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "2. Search Products",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "3. Add to cart",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "4. Update Cart Quantity",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "5. Delete cart",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}

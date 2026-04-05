@@ -1,0 +1,28 @@
+{
+	"id": "b03559c5-385b-47a5-9c7f-65e8d4a2531a",
+	"name": "DummyJSON Env",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "accessToken",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "cartId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-04-05T20:32:30.230Z",
+	"_postman_exported_using": "Postman/12.3.7"
+}
